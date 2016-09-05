@@ -4,11 +4,13 @@ package assignment3;
  *
  * REQUIREMENT 2
  * 
- * The animal class must be abstract.
+ * The animal class must be abstract and implements a constructor to set any
+ * immutable parameters.  Immutable parameters should be set by classes that
+ * extend the class - only.
  * 
  * REQUIREMENT 3
  * 
- * The animal class will contain the following immutable parameters:
+ * The animal class will contain the following immutable parameters with private scope:
  * 
  * an integer containing the number of legs
  * a String containing the speakParameter
